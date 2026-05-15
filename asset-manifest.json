@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-hr-portal/static/css/main.ff6f38a6.css",
-    "main.js": "/react-hr-portal/static/js/main.5287d9ca.js",
+    "main.js": "/react-hr-portal/static/js/main.7bcecb36.js",
     "static/js/453.20a90023.chunk.js": "/react-hr-portal/static/js/453.20a90023.chunk.js",
     "index.html": "/react-hr-portal/index.html",
     "main.ff6f38a6.css.map": "/react-hr-portal/static/css/main.ff6f38a6.css.map",
-    "main.5287d9ca.js.map": "/react-hr-portal/static/js/main.5287d9ca.js.map",
+    "main.7bcecb36.js.map": "/react-hr-portal/static/js/main.7bcecb36.js.map",
     "453.20a90023.chunk.js.map": "/react-hr-portal/static/js/453.20a90023.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ff6f38a6.css",
-    "static/js/main.5287d9ca.js"
+    "static/js/main.7bcecb36.js"
   ]
 }
