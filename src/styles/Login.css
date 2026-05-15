@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  background: linear-gradient(135deg, #e0f2fe, #eef2ff);
+}
+
+.left-panel {
+  flex: 1;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.brand-badge {
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #2563eb, #7c3aed);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.main-heading {
+  font-size: 48px;
+  margin: 0 0 16px;
+  color: #0f172a;
+}
+
+.sub-text {
+  font-size: 18px;
+  color: #475569;
+  line-height: 1.7;
+  max-width: 520px;
+  margin-bottom: 40px;
+}
+
+.feature-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 18px 22px;
+  border-radius: 18px;
+  margin-bottom: 16px;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+  max-width: 520px;
+}
+
+.feature-icon {
+  font-size: 28px;
+}
+
+.feature-title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.feature-description {
+  margin: 4px 0 0;
+  font-size: 14px;
+  color: #64748b;
+}
+
+.right-panel {
+  width: 520px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-card {
+  width: 100%;
+  background: white;
+  padding: 40px;
+  border-radius: 28px;
+  box-shadow: 0 30px 60px rgba(15, 23, 42, 0.12);
+}
+
+.card-title {
+  margin: 0;
+  font-size: 32px;
+  color: #0f172a;
+}
+
+.card-subtitle {
+  margin: 8px 0 32px;
+  color: #64748b;
+}
+
+.form-group-custom {
+  margin-bottom: 20px;
+}
+
+.form-group-custom label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #334155;
+}
+
+.form-input {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid #dbe2ea;
+  border-radius: 12px;
+  font-size: 15px;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+.login-button {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #2563eb, #7c3aed);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.footer-text {
+  margin-top: 24px;
+  text-align: center;
+  color: #64748b;
+}
+
+.footer-text a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+@media (max-width: 992px) {
+  .login-page {
+    flex-direction: column;
+  }
+
+  .left-panel,
+  .right-panel {
+    width: 100%;
+    padding: 30px;
+  }
+
+  .main-heading {
+    font-size: 36px;
+  }
+}

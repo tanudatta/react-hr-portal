@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f8fafc;
+}
+
+.employee-list-page {
+  min-height: 100vh;
+  padding: 40px;
+  background: linear-gradient(135deg, #f8fafc, #eef2ff);
+}
+
+.employee-list-card {
+  background: #ffffff;
+  border-radius: 28px;
+  padding: 32px;
+  box-shadow: 0 20px 50px rgba(15, 23, 42, 0.08);
+}
+
+.employee-list-header {
+  margin-bottom: 24px;
+}
+
+.employee-list-header h1 {
+  margin: 0;
+  font-size: 34px;
+  color: #0f172a;
+}
+
+.employee-list-header p {
+  margin-top: 8px;
+  color: #64748b;
+}
+
+/* Table */
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 800px;
+}
+
+.employee-table th,
+.employee-table td {
+  padding: 16px;
+  text-align: left;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.employee-table th {
+  background: #f8fafc;
+  color: #475569;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.employee-table td {
+  color: #334155;
+  font-size: 14px;
+}
+
+.employee-table tbody tr:hover {
+  background: #f8fafc;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .employee-list-page {
+    padding: 24px;
+  }
+
+  .employee-list-card {
+    padding: 24px;
+  }
+
+  .employee-list-header h1 {
+    font-size: 28px;
+  }
+}
+.delete-button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  background: #ef4444;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.delete-button:hover {
+  background: #dc2626;
+}
+.edit-button {
+  padding: 8px 14px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 8px;
+  background: #3b82f6;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.edit-button:hover {
+  background: #2563eb;
+}
